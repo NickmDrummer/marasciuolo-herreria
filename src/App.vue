@@ -1,28 +1,66 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="">
+    <video autoplay loop muted id="myVideo">
+      <source src="../src/assets/Blue - 22908.mp4" type="video/mp4" />
+    </video>
+    <main>
+      <Intro />
+      <NavBar />
+      <Seccion1 />
+      <Seccion2 />
+      <Carousel />
+      <Social />
+      <Footer />
+    </main>
   </div>
 </template>
-
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import NavBar from "./components/NavBar.vue";
+import Intro from "./components/Intro.vue";
+import Carousel from "./components/Carousel.vue";
+
+import Footer from "./components/Footer.vue";
+import Seccion1 from "./components/Seccion1.vue";
+import Seccion2 from "./components/Seccion2.vue";
+import Social from "./components/Social.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    NavBar,
+    Intro,
+    Seccion1,
+    Seccion2,
+    Carousel,
+    Social,
+    Footer,
+  },
+};
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+body,
+html {
+  font-family: "Spartan", sans-serif;
+  /* font-family: "Space Mono", sans-serif; */
+
+  scroll-behavior: smooth;
+}
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+
+  z-index: -100;
+
+  background-size: cover;
 }
 </style>
