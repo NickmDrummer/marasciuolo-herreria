@@ -1,6 +1,6 @@
 # Proyecto Marasciuolo Herrería
 
-Es una landing page responsiva creada para el emprendimiento familiar. Usé Vue.js, Material Design de Bootstrap y hosteada en Firebase.
+Es una landing page responsive creada para el emprendimiento familiar. Usé Vue.js, Material Design de Bootstrap y está hosteada en Firebase.
 La dirección es https://marasciuoloherreria-2eb4a.web.app/#/
 
 ## Project setup
