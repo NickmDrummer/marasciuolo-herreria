@@ -10,7 +10,7 @@ import MarasciuoloHerrería from "./components/MarasciuoloHerrería";
 import Footer from "./components/Footer";
 import Seccion1 from "./components/Seccion1";
 import Seccion2 from "./components/Seccion2";
-import Fotos from "./components/Fotos";
+import Fotos from "./components/Fotos.vue";
 import Social from "./components/Social";
 
 Vue.config.productionTip = false;
