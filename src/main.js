@@ -6,11 +6,11 @@ import App from "./App";
 import router from "./router";
 import store from "./store";
 import NavBar from "./components/NavBar";
-import Intro from "./components/Intro";
+import MarasciuoloHerrería from "./components/MarasciuoloHerrería";
 import Footer from "./components/Footer";
 import Seccion1 from "./components/Seccion1";
 import Seccion2 from "./components/Seccion2";
-import Carousel from "./components/Carousel";
+import Fotos from "./components/Fotos";
 import Social from "./components/Social";
 
 Vue.config.productionTip = false;
@@ -20,10 +20,10 @@ new Vue({
   store,
   components: {
     NavBar,
-    Intro,
+    MarasciuoloHerrería,
     Seccion1,
     Seccion2,
-    Carousel,
+    Fotos,
     Social,
     Footer,
   },

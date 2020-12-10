@@ -1,5 +1,5 @@
 <template>
-  <mdb-container id="carousel">
+  <mdb-container id="Fotos">
     <mdb-row class="justify-content-md-center">
       <mdb-col lg="5"></mdb-col>
       <mdb-col md="auto" col="12">
@@ -13,8 +13,6 @@
           controlls
         >
         </mdb-carousel>
-
-        -->
       </mdb-col>
       <mdb-col lg="5"> </mdb-col>
     </mdb-row>
@@ -24,7 +22,7 @@
 <script>
 import { mdbCarousel, mdbContainer, mdbRow, mdbCol } from "mdbvue";
 export default {
-  name: "Carousel",
+  name: "Fotos",
   components: {
     mdbCarousel,
     mdbContainer,
@@ -37,7 +35,7 @@ export default {
         {
           img: true,
 
-          src: require("../assets/instagram/1.png"),
+          src: require("../assets/instagram/3.png"),
 
           mask: "black-light",
         },

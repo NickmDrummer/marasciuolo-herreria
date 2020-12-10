@@ -19,7 +19,7 @@
       </div>
     </div>
     <div class="btnScrollSecc2">
-      <a href="#carousel"
+      <a href="#Fotos"
         ><mdb-icon style="color:black;" icon="angle-double-down"
       /></a>
     </div>
@@ -67,7 +67,7 @@ export default {
   border-radius: 0;
 }
 .backgSecc2 {
-  background-image: url("../assets/edificio.jpg") !important;
+  background-image: url("../assets/2carousel.jpg") !important;
   color: black !important;
   height: 100%;
   background-position: center;

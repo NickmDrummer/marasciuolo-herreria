@@ -9,11 +9,11 @@
           <img
             class="animated fadeInRight logoIntro"
             src="../assets/logoNavBar.svg"
-            alt=""
+            alt="Marasciuolo Herrería"
           />
-          <!-- <h1 class="card-title titleIntro h1 my-4 animated fadeInDown ">
-            Quiénes Somos?
-          </h1> -->
+          <h1 class=" titleIntro ">
+            Marasciuolo Herrería
+          </h1>
           <h3 class="textIntro  mb-4  pb-2 animated fadeInLeft .z-depth-0">
             Somos una empresa familiar que se especializa en hacer trabajos de
             acero inoxidable, carpintería metálica tradicional y estructuras
@@ -32,7 +32,7 @@
 <script>
 import { mdbCard, animateOnScroll, mdbContainer, mdbIcon } from "mdbvue";
 export default {
-  name: "Intro",
+  name: "MarasciuoloHerrería",
   components: {
     mdbCard,
     mdbContainer,
@@ -83,5 +83,9 @@ export default {
 .btnScrollIntro {
   text-align: center;
   font-size: 40px;
+}
+
+.titleIntro {
+  display: none;
 }
 </style>

@@ -1,24 +1,31 @@
 <template>
-  <div class="">
-    <video autoplay loop muted id="myVideo">
-      <source src="../src/assets/Blue - 22908.mp4" type="video/mp4" />
+  <div>
+    <video
+      id="myVideo"
+      playsinline
+      autoplay
+      muted
+      loop
+      poster="./assets/hero-1.png"
+    >
+      <source :src="require('@/assets/blue.mp4')" type="video/mp4" />
     </video>
     <main>
-      <Intro />
+      <MarasciuoloHerrería />
       <NavBar />
       <Seccion1 />
       <Seccion2 />
-      <Carousel />
+      <Fotos />
       <Social />
       <Footer />
     </main>
   </div>
 </template>
 <script>
+// import Video from "./components/Video.vue";
 import NavBar from "./components/NavBar.vue";
-import Intro from "./components/Intro.vue";
-import Carousel from "./components/Carousel.vue";
-
+import MarasciuoloHerrería from "./components/MarasciuoloHerrería.vue";
+import Fotos from "./components/Fotos.vue";
 import Footer from "./components/Footer.vue";
 import Seccion1 from "./components/Seccion1.vue";
 import Seccion2 from "./components/Seccion2.vue";
@@ -28,10 +35,10 @@ export default {
   name: "App",
   components: {
     NavBar,
-    Intro,
+    MarasciuoloHerrería,
     Seccion1,
     Seccion2,
-    Carousel,
+    Fotos,
     Social,
     Footer,
   },
