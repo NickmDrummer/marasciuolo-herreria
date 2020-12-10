@@ -91,6 +91,7 @@ export default {
   margin-top: 100px;
   margin-bottom: 70px;
   font-size: 45px;
+  font-weight: 600;
 }
 .h3-responsive {
   text-shadow: 1px 1px 10px black;

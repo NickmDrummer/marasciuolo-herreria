@@ -81,5 +81,6 @@ ul.itemsfooter {
 }
 .title {
   margin-top: 50px;
+  font-weight: 600;
 }
 </style>

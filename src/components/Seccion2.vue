@@ -78,6 +78,7 @@ export default {
 .titleSec2 {
   margin-bottom: 60px !important;
   font-size: 45px;
+  font-weight: 600;
 }
 .btnScrollSecc2 {
   text-align: center;
