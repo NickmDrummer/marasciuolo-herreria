@@ -11,7 +11,7 @@
         <h3 class="textSec1 mb-4 pb-2 px-md-5 mx-md-5">
           Contamos con los conocimientos necesarios para realizar lo que el
           cliente requiera. Brindamos el asesoramiento técnico para llevar a
-          cabo su proyecto de principio a fin. Usted tiene la idea, pero nuestra
+          cabo su proyecto de principio a fin. Usted tiene la idea, y nuestra
           fortaleza es mejorarla.
         </h3>
       </div>
