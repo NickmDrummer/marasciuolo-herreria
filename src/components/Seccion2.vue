@@ -51,6 +51,7 @@ export default {
 @media (max-width: 575px) {
   .titleSec2 {
     font-size: 35px !important;
+    font-weight: 600;
   }
 
   .textSec2 {

@@ -77,6 +77,7 @@ export default {
 .titleSec1 {
   margin-bottom: 60px !important;
   font-size: 45px;
+  font-weight: 600;
   /* text-shadow: 0px 0px 15px white; */
 }
 .textSec1 {
