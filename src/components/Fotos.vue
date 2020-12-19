@@ -4,7 +4,7 @@
       <mdb-col lg="5"></mdb-col>
       <mdb-col md="auto" col="12">
         <h2 class="titleCarousel h1 text-white text-center">
-          Trabajos Realizados
+          Galería
         </h2>
         <mdb-carousel
           class="carousel rounded-lg"
