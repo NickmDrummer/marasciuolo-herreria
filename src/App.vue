@@ -1,13 +1,6 @@
 <template>
   <div>
-    <video
-      id="myVideo"
-      playsinline
-      autoplay
-      muted
-      loop
-      poster="./assets/hero-1.png"
-    >
+    <video id="myVideo" playsinline muted poster="./assets/hero-1.png">
       <source :src="require('@/assets/blue.mp4')" type="video/mp4" />
     </video>
     <main>

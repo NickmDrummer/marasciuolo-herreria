@@ -35,32 +35,68 @@ export default {
         {
           img: true,
 
-          src: require("../assets/instagram/3.png"),
+          src: require("../assets/instagram/56756.png"),
 
           mask: "black-light",
         },
         {
           img: true,
-          src: require("../assets/instagram/2.png"),
+          src: require("../assets/instagram/567567.png"),
 
           mask: "black-light",
         },
         {
           img: true,
-          src: require("../assets/instagram/22.png"),
+          src: require("../assets/instagram/Dolfines Guaranie.png"),
 
           mask: "black-light",
         },
         {
           img: true,
 
-          src: require("../assets/instagram/4.png"),
+          src: require("../assets/instagram/Dolfines Guaranie2.png"),
 
           mask: "black-light",
         },
         {
           img: true,
-          src: require("../assets/instagram/5.png"),
+          src: require("../assets/instagram/puertahierro1.png"),
+
+          mask: "black-light",
+        },
+        {
+          img: true,
+          src: require("../assets/instagram/puertahierro2.png"),
+
+          mask: "black-light",
+        },
+        {
+          img: true,
+          src: require("../assets/instagram/puertaino1.png"),
+
+          mask: "black-light",
+        },
+        {
+          img: true,
+          src: require("../assets/instagram/puertaino2.png"),
+
+          mask: "black-light",
+        },
+        {
+          img: true,
+          src: require("../assets/instagram/puertaino3.png"),
+
+          mask: "black-light",
+        },
+        {
+          img: true,
+          src: require("../assets/instagram/tapafrente.png"),
+
+          mask: "black-light",
+        },
+        {
+          img: true,
+          src: require("../assets/instagram/tapaperfil.png"),
 
           mask: "black-light",
         },
