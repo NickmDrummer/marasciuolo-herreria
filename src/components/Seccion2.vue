@@ -6,15 +6,16 @@
         class="py-5 "
       >
         <h2 class="titleSec2 h1 my-4 py-2">
-          Especialización
+          Servicios
         </h2>
         <h3 class="textSec2 mb-4 pb-2 px-md-5 mx-md-5">
           Carpintería metálica tradicional (puertas, ventanas, escaleras,
           barandas, etc.)
           <br />
-          Herrería de obra a medida tanto en hierro como en acero inoxidable.
+          Herrería de obra a medida tanto en hierro como en acero inoxidable
           <br />Estructuras pesadas hechas con perfilerías IPN, UPN, T, HE, etc.
-          <br />Montaje en obra a pedido del cliente.
+          <br />Montaje en obra (a pedido del cliente) <br />Pintura incluida (a
+          pedido del cliente)
         </h3>
       </div>
     </div>
